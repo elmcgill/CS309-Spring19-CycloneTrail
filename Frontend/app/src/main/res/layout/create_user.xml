@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CreateUserActivity"
+    android:padding="16dp"
+    android:background="@color/colorAccent"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/gameTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="CYCLONE TRAIL"
+        android:textColor="@color/colorBlack"
+        android:textSize="36dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/createUser"
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:text="Create User"
+        android:textColor="@color/colorBlack"
+        android:textSize="28dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/createUserName"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/rounded_white"
+        android:hint="Create Username"
+        android:inputType="text"
+        android:paddingLeft="25dp" />
+
+    <EditText
+        android:id="@+id/createPassWord"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/rounded_white"
+        android:hint="Create Password"
+        android:inputType="text"
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp" />
+
+    <Button
+        android:id="@+id/btn_finish"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_primary"
+        android:text="finish"
+        android:textSize="18dp"/>
+
+</LinearLayout>

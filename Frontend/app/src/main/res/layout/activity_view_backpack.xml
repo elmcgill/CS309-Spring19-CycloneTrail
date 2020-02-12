@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary"
+    tools:context=".ViewBackpackActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="42dp"
+        android:background="@drawable/backpack" />
+
+    <!--Food-->
+
+    <ImageView
+        android:id="@+id/food0"
+        android:layout_width="56dp"
+        android:layout_height="76dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="79dp"
+        android:layout_marginTop="145dp"
+        android:background="@drawable/pizza"
+        android:visibility="invisible"/>
+
+    <ImageView
+        android:id="@+id/food1"
+        android:layout_width="56dp"
+        android:layout_height="76dp"
+        android:layout_marginTop="145dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="167dp"
+        android:background="@drawable/cookies"
+        android:visibility="invisible"/>
+
+    <ImageView
+        android:id="@+id/food2"
+        android:layout_width="56dp"
+        android:layout_height="76dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="247dp"
+        android:layout_marginTop="145dp"
+        android:background="@drawable/hamburger"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/food3"
+        android:layout_width="57dp"
+        android:layout_height="80dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="78dp"
+        android:layout_marginTop="250dp"
+        android:background="@drawable/lasagna"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/food4"
+        android:layout_width="57dp"
+        android:layout_height="80dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="167dp"
+        android:layout_marginTop="250dp"
+        android:background="@drawable/salad"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/food5"
+        android:layout_width="57dp"
+        android:layout_height="80dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="247dp"
+        android:layout_marginTop="250dp"
+        android:background="@drawable/pie"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/food6"
+        android:layout_width="59dp"
+        android:layout_height="80dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="75dp"
+        android:layout_marginTop="356dp"
+        android:background="@drawable/sandwich"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/food7"
+        android:layout_width="59dp"
+        android:layout_height="80dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="168dp"
+        android:layout_marginTop="356dp"
+        android:background="@drawable/vdrumstick"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/food8"
+        android:layout_width="59dp"
+        android:layout_height="80dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="247dp"
+        android:layout_marginTop="356dp"
+        android:background="@drawable/pbj"
+        android:visibility="invisible" />
+
+    <!--End Food : Waters-->
+
+    <ImageView
+        android:id="@+id/water0"
+        android:layout_width="57dp"
+        android:layout_height="77dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="79dp"
+        android:layout_marginTop="145dp"
+        android:background="@drawable/water"
+        android:visibility="invisible"/>
+
+    <ImageView
+        android:id="@+id/water1"
+        android:layout_width="57dp"
+        android:layout_height="76dp"
+        android:layout_marginTop="145dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="167dp"
+        android:background="@drawable/water"
+        android:visibility="invisible"/>
+
+    <ImageView
+        android:id="@+id/water2"
+        android:layout_width="57dp"
+        android:layout_height="77dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="247dp"
+        android:layout_marginTop="144dp"
+        android:background="@drawable/water"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/water3"
+        android:layout_width="58dp"
+        android:layout_height="80dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="78dp"
+        android:layout_marginTop="250dp"
+        android:background="@drawable/water"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/water4"
+        android:layout_width="59dp"
+        android:layout_height="80dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="167dp"
+        android:layout_marginTop="250dp"
+        android:background="@drawable/water"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/water5"
+        android:layout_width="58dp"
+        android:layout_height="80dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="247dp"
+        android:layout_marginTop="250dp"
+        android:background="@drawable/water"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/water6"
+        android:layout_width="60dp"
+        android:layout_height="80dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="75dp"
+        android:layout_marginTop="356dp"
+        android:background="@drawable/water"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/water7"
+        android:layout_width="59dp"
+        android:layout_height="80dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="168dp"
+        android:layout_marginTop="356dp"
+        android:background="@drawable/water"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/water8"
+        android:layout_width="60dp"
+        android:layout_height="80dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="247dp"
+        android:layout_marginTop="356dp"
+        android:background="@drawable/water"
+        android:visibility="invisible" />
+
+    <!--End Water : School Supplies-->
+
+    <ImageView
+        android:id="@+id/supplies0"
+        android:layout_width="56dp"
+        android:layout_height="76dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="79dp"
+        android:layout_marginTop="145dp"
+        android:background="@drawable/books"
+        android:visibility="invisible"/>
+
+    <ImageView
+        android:id="@+id/supplies1"
+        android:layout_width="56dp"
+        android:layout_height="76dp"
+        android:layout_marginTop="145dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="167dp"
+        android:background="@drawable/pencils"
+        android:visibility="invisible"/>
+
+    <ImageView
+        android:id="@+id/supplies2"
+        android:layout_width="56dp"
+        android:layout_height="76dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="247dp"
+        android:layout_marginTop="145dp"
+        android:background="@drawable/books"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/supplies3"
+        android:layout_width="57dp"
+        android:layout_height="80dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="78dp"
+        android:layout_marginTop="250dp"
+        android:background="@drawable/pencils"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/supplies4"
+        android:layout_width="57dp"
+        android:layout_height="80dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="167dp"
+        android:layout_marginTop="250dp"
+        android:background="@drawable/books"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/supplies5"
+        android:layout_width="57dp"
+        android:layout_height="80dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="247dp"
+        android:layout_marginTop="250dp"
+        android:background="@drawable/pencils"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/supplies6"
+        android:layout_width="59dp"
+        android:layout_height="80dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="75dp"
+        android:layout_marginTop="356dp"
+        android:background="@drawable/books"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/supplies7"
+        android:layout_width="59dp"
+        android:layout_height="80dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="168dp"
+        android:layout_marginTop="356dp"
+        android:background="@drawable/pencils"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/supplies8"
+        android:layout_width="59dp"
+        android:layout_height="80dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="247dp"
+        android:layout_marginTop="356dp"
+        android:background="@drawable/books"
+        android:visibility="invisible" />
+
+    <!--End School Supplies-->
+
+    <TextView
+        android:id="@+id/moneyLeft"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Placeholder"
+        android:textSize="30dp"
+        android:textColor="@color/colorBlack"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:background="@color/colorAccent"/>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="154dp"
+        android:text="Placeholder"
+        android:textSize="30dp"
+        android:textColor="@color/colorBlack"
+        android:gravity="center"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@color/colorAccent"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="114dp"
+        android:text="Placeholder"
+        android:textSize="30dp"
+        android:textColor="@color/colorBlack"
+        android:gravity="center"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@color/colorAccent"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="73dp"
+        android:background="@color/colorAccent"
+        android:gravity="center"
+        android:text="Placeholder"
+        android:textSize="30dp"
+        android:textColor="@color/colorBlack"/>
+
+    <Button
+        android:id="@+id/btn_backToGame"
+        android:layout_width="300dp"
+        android:layout_height="57dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/rounded_accent"
+        android:gravity="center"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:text="back to game"
+        android:textSize="30dp"
+        android:textColor="@color/colorBlack"/>
+
+</RelativeLayout>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".EndGameActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:background="@color/colorAccent">
+
+        <TextView
+            android:id="@+id/winORloose"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:text="default"
+            android:textColor="@color/colorBlack"
+            android:textSize="36dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/scoreNum"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:text="default"
+            android:textColor="@color/colorBlack"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textview"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:text="Would you like to:"
+            android:textColor="@color/colorBlack"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:layout_marginTop="26dp"/>
+
+        <Button
+            android:id="@+id/btn_toLeadBoard"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/rounded_primary"
+            android:text="go to leaderboard" />
+
+        <Button
+            android:id="@+id/btn_toMain"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/rounded_primary"
+            android:text="go to main menu" />
+
+    </LinearLayout>
+
+</LinearLayout>

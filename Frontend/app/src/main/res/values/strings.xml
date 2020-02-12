@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Cyclone_Trail</string>
+    <string name="httphost">http://example.com</string>
+    <string name="title_activity_game_board">Map</string>
+    <string name="money_left">You have $%1$d.00 left</string>
+    <string name="room_left">Room left: %1$d</string>
+    <string name="ChatTitle">CYCLONE TRAIL CHAT ROOM</string>
+    <string name="ChatBackBtn">Back to the Trail</string>
+</resources>
